@@ -1,0 +1,25 @@
+.texto{
+    color:rgb(255, 0, 0);
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.borda{
+    
+    padding: 25px 50px 50px 50px;
+    
+    border-color: rgb(255, 0, 0);
+
+    background-color: rgb(206, 206, 136);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    gap: 20px;
+}
+
+.botaoEstilo:hover {
+    transition-duration: 0.4s;
+
+    background-color: grey;
+    color:white
+    
+}
