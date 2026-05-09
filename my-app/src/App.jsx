@@ -8,6 +8,8 @@ import './App.css'
 import './Ex01Css/Estilos.css'
 import './Ex02Css/Listas.css'
 import './Ex03Css/Menu.css'
+import './Ex04Css/Condicional.css'
+import './Ex05Css/ListaFilmes.css'
 
 //Jsx:
 import NomeAluno from './Ex01Css/NomeAluno'
@@ -17,9 +19,51 @@ import Listas from './Ex02Css/Listas';
 
 function App() {
 
-  
+  const Filmes = [
+    {id: 1, nome: 'Cabo do medo', categoria: 'Suspense', nota: 8.0},
+    {id: 2, nome: 'Senhor dos Aneis', categoria: 'Aventura', nota: 8.6},
+    {id: 3, nome: 'Corra que a Polica vem Ai', categoria: 'Comedia', nota: 8.0}
+  ]
+
   return (
     <div>
+      <h2>Exercício 5 — Lista de Filmes</h2>
+      <div>
+        <ul className='lista'>
+          {Filmes.map ((filme) => <li className='item'>{filme.nome} - {filme.categoria} - {filme.nota}
+          <button className='botao'>Assistir</button>
+          </li>)}
+          
+        </ul>
+        
+      </div>
+      
+
+      {/**
+       * 
+      Ex 04:
+      const Alunos = [
+        {id: 1, nome: 'Ana', nota: 10.0},
+        {id: 2, nome: 'Bruna', nota: 7.0},
+        {id: 3, nome: 'Carla', nota: 5.0},
+        {id: 4, nome: 'Daniele', nota: 6.0}
+      ]
+
+      <h2>Exercicio 4 - CSS Condicional</h2>
+      <ul>
+        {Alunos.map((aluno)=> (
+          <li className={aluno.className}>
+            {aluno.nome} - Nota: <span className={aluno.nota >= 7 ? 'aprovado' : 'reprovado'}>{aluno.nota}</span>
+            
+          </li>
+        ))}
+      </ul>
+
+
+       *
+       * 
+      Ex 03:
+
       <h2>Exercício 3 — Menu Horizontal</h2>
       <div className='menu'>
         <a href='https://www.youtube.com/watch?v=Wu3Y_v8JeE8' className='menuh3'>Home</a>
@@ -28,9 +72,7 @@ function App() {
         <a href='https://www.youtube.com/watch?v=GktuAm_72HM' className='menuh3'>Sobre</a>
       </div>
 
-      {/**
-       *
-       * 
+
       Ex 02:
 
       const Produtos = [
