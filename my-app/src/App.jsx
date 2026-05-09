@@ -12,6 +12,7 @@ import './Ex04Css/Condicional.css'
 import './Ex05Css/ListaFilmes.css'
 import './Ex07Css/Usuario.css'
 import './Ex08Css/Grid.css'
+import './Ex09Css/DiferentesBoto.css'
 
 //Jsx:
 import NomeAluno from './Ex01Css/NomeAluno'
@@ -21,6 +22,9 @@ import Listas from './Ex02Css/Listas';
 import Email from './Ex07Css/Email'
 import Nome from './Ex07Css/Nome'
 import Telefone from './Ex07Css/Telefone'
+import BotaoSucesso from './Ex09Css/BotaoSucesso'
+import BotaoErro from './Ex09Css/BotaoErro'
+import BotaoAviso from './Ex09Css/BotaoAviso'
 
 function App() {
 
@@ -30,14 +34,27 @@ function App() {
     
 
     <div>
+
+      <h1>Exercicio 10 - Desadio Completo</h1>
       
-      
-      
+
       {/**
       
-
-
+      Ex09: 
       
+      <h1>Exercício 9 - Botões Dinâmicos: </h1>
+
+      <div className='campobotoes'>
+
+        <button onClick = {BotaoSucesso} className={'sucesso'}>Sucesso</button>
+
+        <button onClick = {BotaoErro} className='erro'>Erro</button>
+
+        <button onClick = {BotaoAviso} className='aviso'>Aviso</button>
+
+      </div>
+
+
       Ex08: 
 
       <h1>Exercicio 8 - Grid de Produtos: </h1>

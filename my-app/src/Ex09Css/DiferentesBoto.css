@@ -1,0 +1,34 @@
+.sucesso{
+    background-color: green;;
+}
+.sucesso:hover{
+    background-color: limegreen;
+    color: white;
+    transition: 0.5s;
+}
+
+.erro{
+    background-color: red;
+}
+
+.erro:hover{
+    background-color: crimson;
+    color: white;
+    transition: 0.5s;
+}
+
+.aviso{
+    background-color: yellow;
+}
+
+.aviso:hover{
+    background-color: gold;
+    color: white;
+    transition: 0.5;
+}
+
+.campobotoes{
+    display: flex;
+    gap: 10px;
+    
+}
