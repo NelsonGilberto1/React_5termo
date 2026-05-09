@@ -11,6 +11,7 @@ import './Ex03Css/Menu.css'
 import './Ex04Css/Condicional.css'
 import './Ex05Css/ListaFilmes.css'
 import './Ex07Css/Usuario.css'
+import './Ex08Css/Grid.css'
 
 //Jsx:
 import NomeAluno from './Ex01Css/NomeAluno'
@@ -26,7 +27,73 @@ function App() {
   
 
   return (
+    
+
     <div>
+      
+      
+      
+      {/**
+      
+
+
+      
+      Ex08: 
+
+      <h1>Exercicio 8 - Grid de Produtos: </h1>
+
+      <div className = 'gridContainer'>
+
+        <div className = 'card'>
+          <h3>Produto 1</h3>
+          <p>Descrição do Produto 1</p>
+        </div>
+
+        <div className = 'card'>
+          <h3>Produto 2</h3>
+          <p>Descrição do Produto 2</p>
+        </div>
+
+        <div className = 'card'>
+          <h3>Produto 3</h3>
+          <p>Descrição do Produto 3</p>
+        </div>
+
+        <div className = 'card'>
+          <h3>Produto 4</h3>
+          <p>Descrição do Produto 4</p>
+        </div>
+
+        <div className = 'card'>
+          <h3>Produto 5</h3>
+          <p>Descrição do Produto 5</p>
+        </div>
+
+        <div className = 'card'>
+          <h3>Produto 6</h3>
+          <p>Descrição do Produto 6</p>
+        </div>
+
+        <div className = 'card'>
+          <h3>Produto 7</h3>
+          <p>Descrição do Produto 7</p>
+        </div>
+
+        <div className = 'card'>
+          <h3>Produto 8</h3>
+          <p>Descrição do Produto 8</p>
+        </div>
+
+        <div className = 'card'>
+          <h3>Produto 9</h3>
+          <p>Descrição do Produto 9</p>
+        </div>
+
+      </div>
+       * 
+      
+      Ex07: 
+
       <h1>Exercício 7 — Tela de Usuários</h1>
       <div className='container'>
         <div className='box'>
@@ -42,8 +109,6 @@ function App() {
           <Telefone/>
         </div>
       </div>
-      {/**
-      
 
       Ex 06:
       

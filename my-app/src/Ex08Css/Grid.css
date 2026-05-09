@@ -1,0 +1,21 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 20px;
+    border: 4px solid gray;
+}
+
+.card{
+    background-color: white;
+    border-radius: 20px;
+    border: 4px solid whitesmoke;
+}
+
+.card:hover{
+    background-color: gray;
+    border-color: red;
+    transition: 0.5s;
+}
