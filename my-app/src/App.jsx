@@ -7,6 +7,7 @@ import './App.css'
 //Css:
 import './Ex01Css/Estilos.css'
 import './Ex02Css/Listas.css'
+import './Ex03Css/Menu.css'
 
 //Jsx:
 import NomeAluno from './Ex01Css/NomeAluno'
@@ -16,12 +17,16 @@ import Listas from './Ex02Css/Listas';
 
 function App() {
 
-
+  
   return (
     <div>
-      
-      <h1>Exercicio 3 - Menu Horizontal</h1>
-      
+      <h2>Exercício 3 — Menu Horizontal</h2>
+      <div className='menu'>
+        <a href='https://www.youtube.com/watch?v=Wu3Y_v8JeE8' className='menuh3'>Home</a>
+        <a href='https://www.youtube.com/watch?v=WnOWVSYNMFw' className='menuh3'>Produtos</a>
+        <a href='https://www.youtube.com/watch?v=Fy69pNzf9iE' className='menuh3'>Contato</a>
+        <a href='https://www.youtube.com/watch?v=GktuAm_72HM' className='menuh3'>Sobre</a>
+      </div>
 
       {/**
        *
