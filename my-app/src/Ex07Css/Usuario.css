@@ -1,0 +1,52 @@
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+.box{
+    background-color: blue;
+    height: auto;
+    width: auto;
+    display: inline-table;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+.box:hover{
+    background-color: deepskyblue;
+    color: white;
+}
+
+.box1{
+    background-color: red;
+    height: auto;
+    width: auto;
+    display: inline-table;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+.box1:hover{
+    background-color: crimson;
+    color: white;
+}
+
+.box2{
+    background-color: green;
+    height: auto;
+    width: auto;
+    display: inline-table;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+.box2:hover{
+    background-color: limegreen;
+    color: white;
+}

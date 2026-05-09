@@ -10,36 +10,64 @@ import './Ex02Css/Listas.css'
 import './Ex03Css/Menu.css'
 import './Ex04Css/Condicional.css'
 import './Ex05Css/ListaFilmes.css'
+import './Ex07Css/Usuario.css'
 
 //Jsx:
 import NomeAluno from './Ex01Css/NomeAluno'
 import Curso from './Ex01Css/Curso'
 import Botaover from './Ex01Css/BotaoVer'
 import Listas from './Ex02Css/Listas';
+import Email from './Ex07Css/Email'
+import Nome from './Ex07Css/Nome'
+import Telefone from './Ex07Css/Telefone'
 
 function App() {
 
-  const Filmes = [
-    {id: 1, nome: 'Cabo do medo', categoria: 'Suspense', nota: 8.0},
-    {id: 2, nome: 'Senhor dos Aneis', categoria: 'Aventura', nota: 8.6},
-    {id: 3, nome: 'Corra que a Polica vem Ai', categoria: 'Comedia', nota: 8.0}
-  ]
+  
 
   return (
     <div>
+      <h1>Exercício 7 — Tela de Usuários</h1>
+      <div className='container'>
+        <div className='box'>
+          <Nome/>
+        </div>
+
+        
+        <div className='box1'>
+          <Email/>
+        </div>
+
+        <div className='box2'>
+          <Telefone/>
+        </div>
+      </div>
+      {/**
+      
+
+      Ex 06:
+      
+      <h1>Exercício 6 - CSS Inline:</h1>
+      <h2 style={{color: 'blue', fontSize: '40px', backgroundColor: 'red', padding: '10px'}}>Um título</h2>
+      <h3 style={{color: 'red', fontSize: '20px', backgroundColor: 'blue', padding: '10px'}}>Um subtítulo</h3>
+
+      Ex 05:
+
+      const Filmes = [
+        {id: 1, nome: 'Cabo do medo', categoria: 'Suspense', nota: 8.0},
+        {id: 2, nome: 'Senhor dos Aneis', categoria: 'Aventura', nota: 8.6},
+        {id: 3, nome: 'Corra que a Polica vem Ai', categoria: 'Comedia', nota: 8.0}
+      ]
       <h2>Exercício 5 — Lista de Filmes</h2>
       <div>
         <ul className='lista'>
           {Filmes.map ((filme) => <li className='item'>{filme.nome} - {filme.categoria} - {filme.nota}
-          <button className='botao'>Assistir</button>
+            <button className='botao'>Assistir</button>
           </li>)}
           
-        </ul>
-        
+        </ul>  
       </div>
-      
 
-      {/**
        * 
       Ex 04:
       const Alunos = [
