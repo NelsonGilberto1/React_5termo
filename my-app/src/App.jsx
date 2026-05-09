@@ -13,6 +13,7 @@ import './Ex05Css/ListaFilmes.css'
 import './Ex07Css/Usuario.css'
 import './Ex08Css/Grid.css'
 import './Ex09Css/DiferentesBoto.css'
+import './Ex10Css/Completo.css'
 
 //Jsx:
 import NomeAluno from './Ex01Css/NomeAluno'
@@ -25,6 +26,12 @@ import Telefone from './Ex07Css/Telefone'
 import BotaoSucesso from './Ex09Css/BotaoSucesso'
 import BotaoErro from './Ex09Css/BotaoErro'
 import BotaoAviso from './Ex09Css/BotaoAviso'
+import BotaoCompra from './Ex10Css/BotaoCompra'
+
+import Uno from './Imagens/fiatUnoFilhote.jfif'
+import george from './Imagens/georgeForemanGrill.jpg'
+import pc from './Imagens/pcGamer.jfif'
+import celular from './Imagens/nokia.webp'
 
 function App() {
 
@@ -36,7 +43,41 @@ function App() {
     <div>
 
       <h1>Exercicio 10 - Desadio Completo</h1>
-      
+      <div className='divM'>
+
+        <div className='produto'>
+          <h4>Fiat Uno Filhote:</h4>
+          <h5>Veiculo Automotor</h5>
+          <img src={Uno} alt="Imagem de um Fiat Uno Filhote" titlle="Fiat Uno Filhote" className='imagem'/>
+          <h5 className='preco'>R$45.000</h5>
+          <button className="botaoproduto" onClick={BotaoCompra}>Comprar</button>
+        </div>
+
+        <div className='produto'>
+          <h4>George Foreman Grill:</h4> 
+          <h5>Eletrodomestico</h5>
+          <img src={george} alt="Imagem de uma George Foreman Grill" title="George Foreman Grill" className='imagem'/>
+          <h5 className='preco'>R$630,99</h5>
+          <button className="botaoproduto" onClick={BotaoCompra}>Comprar</button>
+        </div>
+
+        <div className='produto'>
+          <h4>Pc Gamer:</h4>
+          <h5>Eletrônico</h5>
+          <img src = {pc} alt="Imagem de um Pc Gamer" title="Pc Gamer" className='imagem'/>
+          <h5 className='preco'>R$4.500,00</h5>
+          <button className="botaoproduto" onClick={BotaoCompra}>Comprar</button>
+        </div>
+
+        <div className='produto'>
+          <h4>iphone 17 pro max:</h4>
+          <h5>Eletrônico</h5>
+          <img src = {celular} alt="Imagem de um Nokia" title="Nokia" className='imagem'/>
+          <h5 className='preco'>R$5.000,99</h5>
+          <button className="botaoproduto" onClick={BotaoCompra}>Comprar</button>
+        </div>
+
+      </div>
 
       {/**
       

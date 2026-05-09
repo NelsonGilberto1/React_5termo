@@ -1,0 +1,56 @@
+.divM{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    gap: 10px;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.produto:hover{
+    background-color: gray;
+    color: white;
+    transition: 0.5s;
+}
+
+.botaoproduto{
+    background-color: rgb(131, 126, 126);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.botaoproduto:hover{
+    background-color: rgb(68, 59, 59);
+    color: white;
+    transition: 0.5s;
+}
+
+.preco{
+    color: blue;
+    font-size: 20px;
+}
+
+.preco:hover{
+    color: deepskyblue;
+    transition: 0.5s;
+}
